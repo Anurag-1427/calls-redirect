@@ -29,7 +29,7 @@
 .feature-img{
     display: flex;
     flex: content;
-    justify-content: end;
+    justify-content: flex-end;
 }
 @media screen and (max-width: 768px){
     .middleThree-container{
@@ -58,7 +58,7 @@
         padding-top: 250px;
         display: flex;
         flex: content;
-        justify-content: end;
+        justify-content: flex-end;
     }
     .feature-img img{
         height: min-content;
