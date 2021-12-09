@@ -1,0 +1,126 @@
+:root{
+    --orange: #E56717; 
+}
+
+.middleFour-container{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 80px;
+}
+.line4{
+    width: 90px;
+    height: 5px;
+    background: var(--orange);
+    position: relative;
+    left: 42%;
+    top: 2%;
+}
+.reviews{
+    display: flex;
+    margin-top: 50px;
+}
+.left-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.right-review{
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-review p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.right-review span{
+    margin-top: 30px;
+    position: relative;
+    left: -62px;
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--orange);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+ .left, .right{
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+} 
+
+@media only screen and (max-width: 768px){
+    .middleFour-container{
+        width: 100vw;
+        height: 100vh;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .line4{
+        width: 45px;
+        height: 5px;
+        background: var(--orange);
+        position: relative;
+        left: 35%;
+        top: 2%;
+    }
+
+    .reviews{
+        display: flex;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+    }
+    .right-review{
+        width: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .right-review p{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .right-review span{
+        margin-top: 30px;
+        position: relative;
+        left: 0;
+        font-size: 23px;
+        font-weight: 500;
+        color: var(--orange);
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+     .left, .right{
+        font-size: 25px;
+        margin: 5px;
+        cursor: pointer;
+    } 
+}
