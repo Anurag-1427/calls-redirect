@@ -115,6 +115,7 @@
         font-size: 23px;
         font-weight: 500;
         color: var(--orange);
+        width: fit-content;
     }
     .buttons{
         display: flex;
