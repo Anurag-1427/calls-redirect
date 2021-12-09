@@ -73,6 +73,8 @@
         font-size: 30px;
         display: flex;
         justify-content: center;
+        position: relative;
+        left: 3%;
     }
     .line4{
         width: 45px;
